@@ -1,0 +1,27 @@
+{
+  "name": "audiovis",
+  "version": "1.0.0",
+  "description": "Audio Visualisation Starter ==========================",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rumyra/audioVisStarter.git"
+  },
+  "author": "Ruth John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rumyra/audioVisStarter/issues"
+  },
+  "homepage": "https://github.com/Rumyra/audioVisStarter#readme"
+}

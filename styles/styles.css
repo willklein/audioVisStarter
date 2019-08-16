@@ -1,16 +1,30 @@
-@import 'app-styles.css';
+@import "app-styles.css";
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(153, 153, 153);
+}
 
 /* html example styles */
 .htmlcss i {
   display: block;
-  width: 10px; height: 10px;
-  border: 1px solid black;
+  width: 10px;
+  height: 20px;
+  mix-blend-mode: screen;
+  /* border: 1px solid black; */
 }
 
-.svg {}
+#visual {
+  height: 100vh;
+  width: auto;
+  margin: 0;
+}
+.svg {
+}
 
 .canvas canvas {
-	background-color: black;
-	width: 100%;
-	height: 100%;
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
